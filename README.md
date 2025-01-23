@@ -38,8 +38,8 @@ Helm Chart Update – Updates Kubernetes manifests.
 ArgoCD Sync – Ensures latest version is deployed.
 
 ## 📸 Screenshots
-pod and service status 
-![Screenshot 2025-01-23 133819](https://github.com/user-attachments/assets/b08af38e-1141-4df1-9e04-43545827137b)
+pod and service status
+![Screenshot 2025-01-23 141132](https://github.com/user-attachments/assets/7d6edd62-79d6-4275-b9bc-94bd3459f303)
 Helm chart structure and usage
 ![Screenshot 2025-01-23 151653](https://github.com/user-attachments/assets/9f331a2e-412b-45f2-9445-e535bd019ef6)
 CICD pipeline execution in GitHub actions
