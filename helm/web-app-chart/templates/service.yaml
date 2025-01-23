@@ -1,0 +1,15 @@
+# Service definition for the web-app deployment
+apiVersion: v1
+kind: Service
+metadata:
+  name: web-app
+  labels:
+    app: web-app
+spec:
+  selector:
+    app.kubernetes.io/name: web-app
+    type: ClusterIP
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
