@@ -1,6 +1,6 @@
 # CICD using GitHub actions
 
-name: CI/CD
+name: CI
 
 # Exclude the workflow to run on changes to the helm chart
 on:
@@ -42,7 +42,7 @@ jobs:
     - name: Run golangci-lint
       uses: golangci/golangci-lint-action@v6
       with:
-        version: v1.56.2
+        version: latest
   
   push:
     runs-on: ubuntu-latest
