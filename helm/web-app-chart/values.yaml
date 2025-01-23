@@ -6,7 +6,7 @@ replicaCount: 1
 
 image: 
   repository: refilwemoholola/web-app
-  tag: "v1"
+  tag: "12932142437"
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
 
